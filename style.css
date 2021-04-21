@@ -1,0 +1,88 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(to right,#a17f7f, #6b69dd);
+}
+.main{
+    padding: 30px;
+}
+.container{
+    border:none;
+    background-color: white;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    float: right;
+}
+input{
+    height: 30px;
+    border-radius:  5px 0 0 5px ;
+    border: 1px solid grey;
+    padding: 0 5px;  
+}
+button{
+    font-size: 16px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 0 5px 5px 0;
+}
+#addInfo{
+    font-weight: 550;
+    font-size: 16px;
+    margin: 10px 0;
+}
+#extraInfo{
+    font-weight: 450;
+    font-size: 14px;
+    margin: 0;
+}
+.xr{
+    margin: 0;
+}
+.tmp{
+    display: flex;
+    align-items: center;
+}
+#temper img{
+    margin: 0 15px;
+}
+.tmp img{
+    width: 50px;
+    height: 50px;
+}
+.tmp h3{
+    margin: 0;
+}
+#cordinate{
+    margin: 40px 0 0 0;
+    display: flex; 
+}
+#cordinate p{
+    margin: 0 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+#view{
+    display: inline-flex;
+    margin-top: 15px;
+}
+#view img{
+    height: 200px;
+    margin: 2px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 194, 194);
+}
+#city{
+    text-transform: uppercase;
+}

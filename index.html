@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <title>Weather</title>
+    <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="style.css">
+      <!-- <style>
+        .back{
+          background: url("images/back-image-3.jpg");
+          background-repeat: no-repeat;
+          background-size: 1200px 500px;
+          padding: 24px;
+          border-radius: 10px;
+        }
+      </style> -->
+    </head>
+    <body>
+      
+    <div class="main">
+      <div class="container">
+        <div class="row p-4 back">
+          <div class="col-md-5">
+            <h1>Daily Weather forecast</h1>
+            <h6 id="time" class="text text-danger"></h6>
+            <br>
+            <h3 id="city"></h3>
+            <div id = "gr">
+              <div class="tmp">
+                <h3 id="temper"></h3>
+              </div>
+              <div class="row">
+                <div class="col-md-5 xr">
+                  <h5 id="addInfo"></h5>
+                  <h5 id="extraInfo"></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <form action="">
+              <input type="text" id="input" placeholder="Search city" required>
+              <button type="button" id="search"><p>Search</p></button>
+            </form>
+            <br>
+            <div id="cordinate">
+            </div>
+            <div id="view">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <img src="images/rainy.png" alt=""> -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="js/jQuery.min.js"></script>
+      <script src="js/popper.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="main.js"></script>
+    </body>
+</html>
+
