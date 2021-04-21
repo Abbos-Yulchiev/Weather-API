@@ -103,7 +103,7 @@ $(document).ready(function(){
 			})
 			
 		}
-		// -- Alter -- warn user when input empty 
+		// -- Alter -- warn user when input is empty 
 		else alert("Please enter a name of city for search!")
 	})
 	window.addEventListener('error', function(e) {
